@@ -1,0 +1,6 @@
+/////// Update your database login details here /////
+$dbhost_name = "172.20.51.53"; // Your host name 
+$database = "data_exa";       // Your database name
+$username = "B16645";            // Your login userid 
+$password = "Megat_01";            // Your password 
+//////// End of database details of your server //////
