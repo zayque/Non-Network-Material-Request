@@ -34,13 +34,6 @@ if (isset($_POST['submit'])) {
     header("Location: login.php");
   }
 
-  $ldap_host  = "10.45.236.28";
-  $ldap_port  = 389;
-  $base_dn    = "DC=tm,DC=my";
-  $filter     = "(sAMAccountName=$login)";
-  $ldap_con   = ldap_connect("10.45.236.28");
-  $ldap_dn    = "cn=unifibuddyldapadmin,ou=serviceAccount,o=Telekom";
-  $ldap_password = "QfmU8B5X";
 
   if (ldap_bind($ldap_con, $ldap_dn, $ldap_password)) {
     ldap_set_option($ldap_con, LDAP_OPT_PROTOCOL_VERSION, 3);
