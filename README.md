@@ -2,8 +2,8 @@
 During Internship Degree in Telekom Malaysia SDN BHD
 
 There are two roles for this system:-
--Admin Page
 -User Page
+-Approver Page
 
 To login, go to http://localhost/nnmr/login.php
 
@@ -14,11 +14,11 @@ Create database name: nnmr
 
 Export the SQL File under database "nnmr"
 
-Username and password for admin page:-
+Username and password for User Page:-
 Username: Akmal
 Password: 12345
 
-Username and password for admin page:-
+Username and password for Approver Page:-
 Username: Hafiz
 Password: 67890
 
