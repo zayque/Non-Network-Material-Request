@@ -39,7 +39,7 @@ CREATE TABLE `nnmr_login` (
 --
 
 INSERT INTO `nnmr_login` (`sys_id`, `staff_id`, `name`, `role`) VALUES
-(1, 'Ilyana', 'Ilyana Norzali', 'User');
+(1, 'Akmal', 'Akmal Hafiz', 'User');
 
 -- --------------------------------------------------------
 
